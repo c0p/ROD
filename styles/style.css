@@ -1,32 +1,9 @@
-.effects {
-    background-image: url('ohia1.jpg');
-    height: 75%; 
-    background-attachment: fixed;
+
+.imgUno {
+	background: url(imgs/"red.jpg");
+    min-height: 500px;
+	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;  
 }
-
-.effects2 {
-    background-image: url('ohia2.jpg');
-    height: 75%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-
-
- #title {
- 	text-align: center;
-
- }
-
- .page {
- 	font-size: 50px;
- }
